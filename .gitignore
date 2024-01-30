@@ -9,72 +9,16 @@ out/
 
 # Docs
 docs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Dotenv file
-.env
-/commit_hash.txt
-/prerelease.txt
+# Local History for Visual Studio Code
+.history/
 
-# Auth config for ppa release
-/.release_ppa_auth
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-*.pyc
-__pycache__
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# ignore git mergetool backup files
-*.orig
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directory
-/build*
-emscripten_build/
-/docs/_build
-/docs/_static/robots.txt
-/deps
-/reports
-
-# vim stuff
-[._]*.sw[a-p]
-[._]sw[a-p]
-
-# emacs stuff
-*~
-
-# IDE files
-/.idea/
-/.vscode/
-/browse.VC.db
-/CMakeLists.txt.user
-/CMakeSettings.json
-/.vs
-/.cproject
-/.project
-
-# OS specific local files
-.DS_Store
-Thumbs.db
+# Built Visual Studio Code Extensions
+*.vsix
 
