@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import "forge-std/Test.sol";
-import "../src/Cheatcodes.sol";
+import "../src/test_contracts/Cheatcodes.sol";
 
 contract ContractTest is Test {
     address alice = address(0xBEEF);
